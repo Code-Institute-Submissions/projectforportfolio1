@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    border: none;
+
+}
+body {
+    background-color: #ffffff;
+}
+
+
+/*styling header*/
+header {
+    background-color: #53a8b6;
+    color:white;
+    height:30px;
+}
+header a{
+    color:white;
+    text-decoration:none;
+    text-align: center;
+
+}
+#logo{
+    float:left;
+    font-size: 300%;
+    color:#c1f880;
+}
+#logo, #nav-wrapper{
+    line-height: 75px;
+}
+#nav-wrapper{
+    float:right;
+   
+
+}
+nav li {
+    list-style-type: none;
+}
