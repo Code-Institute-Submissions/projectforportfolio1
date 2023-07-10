@@ -10,30 +10,48 @@ body {
 
 
 /*styling header*/
+
 header {
-    background-color: #53a8b6;
-    color:white;
-    height:30px;
-}
-header a{
-    color:white;
-    text-decoration:none;
-    text-align: center;
+    background:#c1f880;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+  }
 
-}
-#logo{
-    float:left;
-    font-size: 300%;
-    color:#c1f880;
-}
-#logo, #nav-wrapper{
-    line-height: 75px;
-}
-#nav-wrapper{
-    float:right;
-   
 
+#logo {
+    max-height: 30px;
+    margin-left: 40px;
+    float: left;
+    padding: 10px;
+   font-size: 20px;
 }
+
+
+nav {
+    margin-right: 60px;
+    float: right;
+}
+
 nav li {
-    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+nav a {
+    color: #4f5aa8;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    border-radius:5px;
+    background-color:rgba(116,129,207, 0.5);
+   
+}
+nav a:active{
+    text-decoration: underline;
 }
