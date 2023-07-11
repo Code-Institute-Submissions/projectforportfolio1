@@ -56,10 +56,18 @@ nav a:active{
     text-decoration: underline;
 }
 /*Index IMAGE*/
-#image-article{
-    height: 700px;
-    width:100%;
-    background:url('assets/images/oolong-tea-1024x683.jpeg') no-repeat;
+.image-article{
+background:url('../assets/images/oolong-tea-1024x683.jpeg') no-repeat;
+background-size: cover;
+height:700px;
+width:100%;
+position:relative;
+}
+#welcome-text{
+    position: absolute;
+    bottom:20px;
+    margin:10px;
+    color: white;
 }
 /*styling sign in page*/
 #login-container 
