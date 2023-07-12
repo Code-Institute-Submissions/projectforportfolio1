@@ -55,6 +55,9 @@ nav a:hover{
 nav a:active{
     text-decoration: underline;
 }
+.image-wrapper{
+    position:relative;
+}
 /*Index Image*/
 .image-article{
 background:url('../assets/images/oolong-tea-1024x683.jpeg') no-repeat;
@@ -65,7 +68,7 @@ position:relative;
 }
 #welcome-text{
     position: absolute;
-    bottom:20px;
+    bottom:40px;
     margin:10px;
     color: white;
 }
@@ -75,9 +78,9 @@ position:relative;
     height:auto;
     width:20%;
     border-radius: 5px;
-    position: relative ;
-    left:30rem;
-    bottom:70px;
+    position: absolute ;
+    left:60vh;
+    bottom: 10px;
     padding:11px 10px;
     margin:auto;
 
