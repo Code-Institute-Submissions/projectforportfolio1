@@ -126,3 +126,8 @@ input[type=email], input[type=password]{
  div > h1{
     text-align: center;
  }
+ .home-button > a{
+    color:green;
+    font-size:30px;
+    margin-left:5px;
+ }
