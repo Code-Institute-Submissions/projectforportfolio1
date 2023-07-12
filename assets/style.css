@@ -55,7 +55,7 @@ nav a:hover{
 nav a:active{
     text-decoration: underline;
 }
-/*Index IMAGE*/
+/*Index Image*/
 .image-article{
 background:url('../assets/images/oolong-tea-1024x683.jpeg') no-repeat;
 background-size: cover;
@@ -68,6 +68,16 @@ position:relative;
     bottom:20px;
     margin:10px;
     color: white;
+}
+/*product button*/
+.product-button{
+    background-color: rgba(112, 130, 56 ,0.5);
+    border-radius: 10px;
+    position: relative;
+    bottom:70px;
+    left:200px;
+
+
 }
 /*styling sign in page*/
 #login-container 
