@@ -5,7 +5,7 @@
 
 }
 body {
-    background-color: #ffffff;
+    background-color: rgba(6, 11, 0, 0.582) ;
 }
 
 
@@ -17,7 +17,9 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 0;
+    margin-bottom: 16px;
+ 
   }
 
 
@@ -91,6 +93,20 @@ position:relative;
     text-decoration: none;
     padding:5px;
 }
+
+/*Styling About us section*/
+#about-us{
+    padding:20px;
+    margin: 5px;
+    font-size:16px;
+    text-align: center;
+    line-height: 200%;
+    background-color: #c1f880;
+}
+.about-heading{
+
+}
+
 /*styling sign in page*/
 #login-container 
 {
