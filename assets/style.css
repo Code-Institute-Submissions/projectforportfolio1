@@ -119,12 +119,19 @@ picture > img{
 #login-container 
 {
   font-family:Arial; 
-  background: -webkit-linear-gradient(to right, #c1f880, #159957); 
-  background: linear-gradient(to right, #c1f880, #159957); 
+  background: url('/assets/images/60491f637d27fe4181b3b0ea6a7506e6--tea-art-artist-painting.jpeg') no-repeat;
+  background-size: 100% 200%;
+ /* background: -webkit-linear-gradient(to right, #c1f880, #159957); 
+  background: linear-gradient(to right, #c1f880, #159957); */
   color:white;
-  height:100%;
-  width:100%;
+  
   margin:0;
+  padding: 40px 0px 20px 0px;
+}
+.center{
+    inset: 100px 20px 30px 40px;
+  position: relative;
+
 }
 input[type=email], input[type=password]{
     width: 60%;
