@@ -6,19 +6,22 @@
 }
 body {
     background-color: #FAF0E4 ;
+
 }
 
 
 /*styling header*/
 
 header {
-    background:#c1f880;
+    background:  #5E9EA0;
     display: flex;
     width: 100%;
+    height:auto;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     margin-bottom: 0;
+    
  
   }
 
@@ -29,11 +32,14 @@ header {
     float: left;
     padding: 10px;
    font-size: 20px;
-   border: solid 2px red;
+   border: solid 2px green;
    border-bottom: 1ch;
    text-align:center;
- 
+   color: #c1f880;
+   
 }
+ 
+
 
 
 nav {
@@ -47,17 +53,20 @@ nav li {
     padding-top: 50px;
 }
 nav a {
-    color: #4f5aa8;
+    color: #c1f880;
+   
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 nav a:hover{
-    border-radius:5px;
-    background-color:rgba(116,129,207, 0.5);
-   
+   text-decoration: underline;
+   text-decoration-color: green;
+   filter:brightness(2)
 }
+
+
 
 
 .image-wrapper{
@@ -75,11 +84,14 @@ position:relative;
     position: absolute;
     bottom:40px;
     margin:10px;
-    color: white;
+   
+    font: bold 30px;
+    color:  rgba(46, 139, 87, 500) ;
+    filter:brightness(2)
 }
 /*product button*/
 .product-button{
-    background-color:rgba(112, 130, 56 ,0.6);
+    background-color: rgba(113, 47, 82, 0.6);
     height:auto;
     width:20%;
     border-radius: 5px;
@@ -102,9 +114,11 @@ position:relative;
     padding:20px;
     margin-bottom: 5px;
     font-size:20px;
+    color:white;
     text-align: center;
     line-height: 200%;
-    background-color: #c1f880;
+    background-color:#2F4F4E ;
+    backdrop-filter: blur(60px) saturation(50%);
     
 }
 
@@ -114,22 +128,40 @@ picture > img{
     width:80vw
 }
 
-
-/*styling sign in page*/
-#login-container 
-{
-  font-family:Arial; 
-  background: linear-gradient(to right, #c1f880, #159957); 
-  color:white;
-  
-  margin:0;
-  padding: 40px 0px 20px 0px;
+#about-us > p a{
+    color:aqua;
 }
-.center{
-    inset: 100px 20px 30px 40px;
-  position: relative;
 
 
+
+ /*STYLING SIGN IN PAGE*/
+ #login-container{
+   background-image:url('/assets/images/tea.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    display:block;
+  }
+
+.login-details{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-details .form-box{
+    position:relative;
+    margin: 5px;
+    padding:30px 40px;
+    height: 70%;
+    width:40%;
+    background-color: rgba(4, 9, 10, 0.5);
+    backdrop-filter: blur(10px) saturation(90%);
+    inset: 10px 20px 30px 30px;
 }
 
 input[type=email], input[type=password]{
@@ -138,10 +170,9 @@ input[type=email], input[type=password]{
     border-radius: 5px;
     padding: 15px 20px;
     box-sizing: border-box;
-   box-shadow: #c1f880;
+
    
   }
-
   .login-button{
     background-color:#159957;
     color: white;
@@ -152,28 +183,25 @@ input[type=email], input[type=password]{
     font-size: 20px;
     
   }
- .login-label{
+  .login-label{
     text-align:center;
- }
- form{
-    width:40rem;
-    height: auto;
-    margin: 10vh 0vw ;
-    border-radius: 12px;
-    background-color: rgba(4, 9, 10, 0.3);
-    backdrop-filter: blur(10px) saturate(180%);
-    
-    text-align: center;
-    vertical-align: middle;
-    
+    color:#c1f880;
+   font-size: 40px;
+   margin-bottom: 30px;
    
- }
-
- div > h1{
-    text-align: center;
- }
- .home-button > a{
+  }
+ 
+  .home-button > a{
     color:green;
     font-size:30px;
     margin-left:5px;
+ }
+ form{
+    text-align: center;
+    vertical-align: middle;
+ }
+ label{
+    font-weight:bold;
+    color:#c1f880;
+
  }
