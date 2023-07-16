@@ -119,10 +119,7 @@ picture > img{
 #login-container 
 {
   font-family:Arial; 
-  background: url('/assets/images/60491f637d27fe4181b3b0ea6a7506e6--tea-art-artist-painting.jpeg') no-repeat;
-  background-size: 100% 200%;
- /* background: -webkit-linear-gradient(to right, #c1f880, #159957); 
-  background: linear-gradient(to right, #c1f880, #159957); */
+  background: linear-gradient(to right, #c1f880, #159957); 
   color:white;
   
   margin:0;
@@ -132,7 +129,9 @@ picture > img{
     inset: 100px 20px 30px 40px;
   position: relative;
 
+
 }
+
 input[type=email], input[type=password]{
     width: 60%;
     margin: 10px 0;
@@ -140,6 +139,7 @@ input[type=email], input[type=password]{
     padding: 15px 20px;
     box-sizing: border-box;
    box-shadow: #c1f880;
+   
   }
 
   .login-button{
@@ -157,13 +157,16 @@ input[type=email], input[type=password]{
  }
  form{
     width:40rem;
-    margin: auto;
+    height: auto;
+    margin: 10vh 0vw ;
     border-radius: 12px;
-    background-color: rgba(6, 11, 0, 0.582);
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(4, 9, 10, 0.3);
+    backdrop-filter: blur(10px) saturate(180%);
+    
     text-align: center;
     vertical-align: middle;
+    
+   
  }
 
  div > h1{
