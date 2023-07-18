@@ -5,7 +5,7 @@
 
 }
 body {
-    background-color: #FAF0E4 ;
+    background-color: #e5d6c4 ;
 
 }
 
@@ -224,14 +224,17 @@ text-decoration: none;
     margin-left:5px;
  }
 .btn-container{
-    color:green;
+    color:rgb(19, 245, 19);
 }
  .cancel-btn{
 width: auto;
   padding: 5px 20px;
   margin: 10px;
-  color:green;
-;
+  color:black;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: red
+
  }
 
  /*Styling the footer*/
@@ -283,3 +286,48 @@ width: auto;
     span{
         font-weight: bold;
     }
+
+    /*Styling contact page */
+
+          .align-center {
+            text-align: center;
+            }
+            .align-center > h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+                }
+               .align-center > p {
+                    margin-bottom: 20px;
+                    }
+                    #contact-form > input[type="text"],
+                    input[type="email"],
+                    select,
+                    textarea {
+                    width: 50%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    }
+
+                    .important {
+                        color: red;
+                        }
+                        input[type=submit], input[type=reset]{
+                            background-color: #04AA6D;
+                            color: white;
+                            padding: 12px 20px;
+                            border: none;
+                            border-radius:5px;
+                            cursor: pointer;
+                          }
+                
+                        input[type=submit]{
+                            position:relative;
+                            right:-50px;
+                        }
+                         input[type=reset]{
+                            position: relative;
+                            top:-40px;
+                            right:60px;
+                         }
