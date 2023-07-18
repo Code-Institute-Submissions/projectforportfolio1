@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Teahouse</title>
+    <title>Dream Teahouse-sign in</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -30,13 +30,25 @@
                     <label for="password">Password:</label> <br>
                     <input type="password" name="pswd" placeholder="Password" required="">
                 </div>
-                <div id="passes">
-                    <div class="pass"> Reset Password</div>
-                    <div class="pass1">
-                        <a href="register.html">Register</a>
-                    </div>
+                <div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
                 </div>
-                <button type="submit" name="Login" class="login-button"> Log In </button>
+                <div class="btn-class">
+                        <button type="submit" name="Login" class="btn login-button"> Log In </button>
+                        <button class="btn register-button">Register</button>
+                        <div class="sign-in-icons">
+                        <a href="#" class="fa fa-instagram" target="_blank" ></a>
+                        <a href="#" class="fa fa-facebook" target="_blank"></a>
+                        <a href="#" class="fa fa-twitter" target="_blank"></a>
+                    </div>
+
+                    <div class="btn-container">
+                        <button type="button" class="cancel-btn">Cancel</button>
+                        <span class="pswd-reset">Forgot <a href="#">password?</a></span>
+                      </div>
+                
             </form>
 
         </div>
