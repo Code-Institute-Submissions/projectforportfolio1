@@ -26,8 +26,14 @@
 <label for="quantity" class="label-group">Quantity:</label>
 <input type="number" class="order" id="quantity" name="quantity" required>
 
+<label for="address" class="label-group">Address and Postcode:</label>
+<textarea name="address" class="order" id="address" cols="30" rows="10" required></textarea>
+<label for="postcode" class="label-group">Post code:</label>
+<input type="text" class="order" id="postcode" name="postcode" placeholder="Post code"
+title="Please enter a post Code" pattern="^\s*?\d{5}(?:[-\s]\d{4})?\s*?$"required>
+
 <label for="special_requests" class="label-group">Special Requests:</label>
-<textarea name="special_requests" class="order" id="special_requests" cols="30" rows="10"></textarea>
+<textarea name="special_requests" class="order" id="special_requests" cols="30" rows="5"></textarea>
 
 <button id="place-order" type="submit">Place Order</button>
 </form>
