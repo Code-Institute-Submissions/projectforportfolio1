@@ -331,3 +331,38 @@ width: auto;
                             top:-40px;
                             right:60px;
                          }
+/*Styling product-details */
+.product-image >img{
+ height: 400px;
+ width:420px;
+ float: right;
+ border-radius: 5px;
+}
+
+#preparation-list>li{
+    list-style-type:lower-roman;
+}
+
+/*styling order confirmation */
+.label-group {
+    display: block;
+    margin-top: 10px;
+    float:left;
+    color:green;
+    }
+    .order  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    #place-order {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }

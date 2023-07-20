@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dream Teahouse - Order Page</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<h1>Dream Teahouse - Order Page</h1>
+
+<form action="order_confirmation.html" method="post" >
+<label for="name" class="label-group ">Name:</label>
+<input type="text" class="order" id="name" name="name" required>
+
+<label for="email" class="label-group">Email:</label>
+<input type="text" class="order" id="email" name="email" required>
+
+<label for="phone" class="label-group">Phone:</label>
+<input type="text" class="order" id="phone" name="phone" required>
+
+<label for="tea" class="label-group">Select Tea:</label>
+<select id="tea" class="order" name="tea">
+<option value="oolong">Oolong Tea</option>
+</select>
+
+<label for="quantity" class="label-group">Quantity:</label>
+<input type="number" class="order" id="quantity" name="quantity" required>
+
+<label for="special_requests" class="label-group">Special Requests:</label>
+<textarea name="special_requests" class="order" id="special_requests" cols="30" rows="10"></textarea>
+
+<button id="place-order" type="submit">Place Order</button>
+</form>
+</body>
