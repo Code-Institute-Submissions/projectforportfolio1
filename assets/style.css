@@ -332,6 +332,10 @@ width: auto;
                             right:60px;
                          }
 /*Styling product-details */
+#pd-container{
+    margin: 7px;px;
+    padding: 10px;
+}
 .product-image >img{
  height: 400px;
  width:420px;
