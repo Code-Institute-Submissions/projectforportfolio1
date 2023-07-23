@@ -15,13 +15,18 @@ body {
 
 /*styling header*/
 
+.heading-slogan{
+display: inline-block;
 
+
+}
 
 .heading-slogan > a{
 font-family: 'lumanosimo', cursive;
-font-size:1rem;
+font-size:0.8rem;
 color: #c1f880;
 text-decoration: none;
+
 }
 
 
@@ -48,7 +53,7 @@ margin-left: 2rem;
 
 }
 nav ul{
-list-style-type:none;
+list-style: none;
 padding:0;
 display:flex;
 
@@ -249,11 +254,17 @@ footer {
 }
 
 #preparation-list>ol{
-    list-style-type:lower-roman;
+    list-style:lower-roman;
     font-size:20px;
+    /*top right bottom left*/
+    padding: 3px 20px;
 
 }
-
+.pd-title>h1{
+    margin:5px;
+    text-align:center;
+    text-transform:capitalize;
+}
 /*styling order confirmation */
 .label-group {
     display: block;
@@ -324,22 +335,26 @@ footer {
         }
  /*media query for index.html*/
 
-@media (max-width: 511px) {
-   
+@media (max-width: 500px) {
+   nav{
+    display: inline-block;
+   }
     .nav-box {
     text-align: center;
     }
     
     .nav-container {
-    flex-direction: column;
+    flex-direction: row;
     }
     
     nav ul {
-    flex-direction: column;
+    flex-direction: row;
     }
     
     nav li {
-    margin: 0.8em 0;
+        /*top right bottom left*/
+    margin: 0.7em 0 0.7em 0.7em;
+    
     }
     #welcome-text{
         text-align: center;
@@ -351,6 +366,55 @@ footer {
         width:30%;
         position: absolute;
         left:5px;
+    }
+
+    #about-us{
+     
+        font-size:16px;
+        line-height: 150%;
+        
+    }
+    
+       
+    picture > img{
+        height:50vh;
+        width:80vw
+    }
+
+
+    /*product details*/
+    #pd-container{
+        margin: 0px;
+        padding:0px;
+    }
+    #pd-container p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+.pd-title>h1{
+    font-size: 20px;
+}
+    .product-image{
+        float:right;
+        margin-left: 15px;
+     }
+     .product-image >img{
+      height: 250px;
+      width:260px;
+      border-radius: 5px;
+    
+     }
+     .product-content>iframe{
+        height:300px;
+        width:100%;
+     }
+
+    
+    
+    #preparation-list>ol li{
+        font-size:14px;
+        line-height: 14px;
+    
     }
     }
     
