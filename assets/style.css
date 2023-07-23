@@ -118,7 +118,6 @@ position:relative;
 /*Styling About us section*/
 #about-us{
     padding:20px;
-    margin-bottom: 5px;
     font-size:20px;
     color:white;
     text-align: center;
@@ -137,57 +136,124 @@ picture > img{
 #about-us > p a{
     color:aqua;
 }
-
-footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    }
-    
-    .footer-container p {
-    margin-bottom: 10px;
-    }
-    
-    .footer-container ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    }
-    
-    .footer-container li {
-    display: inline;
-    margin-right: 10px;
-    }
-    
-    .footer-container a {
-    text-decoration: none;
-    }
-    
-    .footer-container button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    }
-    
-    .sm-wrapper {
-    margin-top: 10px;
-    }
-    
-    .sm-wrapper h4 {
-    margin-bottom: 10px;
-    }
-    
-    .sm-wrapper a {
-    color: #555;
-    margin-right: 5px;
-    }
-    span{
-        font-weight: bold;
-    }
-   
- /*Styling the footer*/
+/* styling footer*/
+        footer{
+            background-color: #333;
+            color:white;
+            padding: 10px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            
+            }
+            
+            .footer-container h2 {
+            font-size: 24px;
+            margin:0px;
+            }
+            
+            .footer-container p {
+            margin-bottom: 20px;
+            }
+            
+            .footer-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            }
+            
+            .footer-container li {
+            display: inline;
+            margin-right: 10px;
+            }
+            
+            .footer-container a {
+            text-decoration: none;
+            }
+            
+            .footer-container button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            }
+            
+            .footer-container ul li:last-child button {
+            background-color: #333;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+            
+            .footer-container ul li:last-child button:hover {
+            background-color: #222;
+            }
+            
+            .footer-container {
+            display: flex;
+            justify-content: space-between;
+            }
+            
+            .footer-container h2 {
+            font-size: 24px;
+            margin:0px;
+            }
+            
+            address {
+            font-style: italic;
+            }
+            
+            .footer-container ul li:last-child button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+            
+            .footer-container ul li:last-child button:hover {
+            background-color: grey;
+            
+            }
+            
+            .sm-wrapper {
+            display: flex;
+            align-items: center;
+            }
+            
+            .fa {
+            color: #fff;
+            font-size: 24px;
+            margin: 10px;
+            }
+            
+            .fa-instagram:hover{
+            background: -webkit-linear-gradient(#405de6, #ff8a00, #DD4C4F, #e1306c );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            }
+            
+            .fa-facebook:hover{
+            color:blue;
+            }
+            
+            .fa-twitter:hover{
+            color:rgb(16, 123, 231);
+            }
+            
+            .fa-pinterest:hover{
+            color: red;
+            }
+           .copyright-text{
+        text-align: center;
+        font-size: 12px;
+           }
 
 
    /* Styling contact page */
