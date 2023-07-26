@@ -8,8 +8,9 @@
 
 }
 body {
-    background-color: #e5d6c4 ;
+    background-color: lightgreen;
     font-family:'Varela Round', sans-serif;
+    margin: 0;
 }
 
 
@@ -410,7 +411,9 @@ table {
             table {
             margin-bottom: 16px;
             }
-            
+           footer th{
+                color: black;
+            }
             th,
             td {
             padding: 6px;
@@ -517,7 +520,7 @@ table {
     text-align:center;
     text-transform:capitalize;
 }
-/*styling order confirmation */
+/*styling order page */
 .label-group {
     display: block;
     margin-top: 10px;
@@ -525,7 +528,7 @@ table {
     color:green;
     }
     .order  {
-    width: 100%;
+    width: 50%;
     padding: 6px 10px;
     margin: 4px 0;
     border: 1px solid #ccc;
@@ -540,6 +543,7 @@ table {
     border-radius: 4px;
     cursor: pointer;
     }
+    
 
     /*styling order confirmation*/
     .odp-container {
@@ -638,6 +642,7 @@ table {
     #pd-container{
         margin: 0px;
         padding:0px;
+       
     }
     #pd-container p{
         font-size: 14px;
@@ -667,6 +672,220 @@ table {
         font-size:14px;
         line-height: 14px;
     
+    }
+    }
+    
+.click-here{
+    color: darkgreen;
+}
+    /*Styling sign in page*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&family=Lumanosimo&family=Oswald&family=Varela+Round&display=swap');
+  @media (min-width: 400px) {
+
+    .login-background {
+    padding: 20px;
+    }
+    
+    .home-button {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .sign-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .login-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    color:green;
+    }
+    
+    .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .login-label {
+    margin-bottom: 10px;
+    }
+    
+    label {
+    font-weight: bold;
+    }
+    
+    input[type="email"],
+    input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    }
+    
+    .btn-class {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    }
+    
+    .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    .login-button {
+    background-color: green;
+    margin-right: 10px;
+    
+    }
+    
+    .register-button {
+    background-color: darkgreen;
+    
+    }
+    
+    .sign-in-icons {
+    display: flex;
+    justify-content: center;
+  
+    }
+    
+    .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+    
+    .cancel-btn {
+    background-color: red;
+    margin-right: 10px;
+    }
+    
+    .pswd-reset {
+    margin-top: 10px;
+    }
+    }
+    
+    /* Desktop */
+    @media only screen and (min-width: 601px) {
+  
+    .login-background {
+    padding: 40px;
+    }  
+    .home-button {
+    text-align: right;
+    }
+    
+    .sign-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+    
+    .login-details {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    color:green;
+    }
+    
+    .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .login-label {
+    margin-bottom: 20px;
+    }
+    
+    .login-details label {  font-weight: bold;
+    }
+    
+   .login-details input[type="email"],
+    .login-details input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    }
+    
+    .btn-class {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    }
+    
+    .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    .login-button {
+    background-color: green;
+    margin-right: 10px;
+     width:300px;
+    }
+    
+    .register-button {
+    background-color: darkgreen;
+    width:300px;
+    }
+    
+    .sign-in-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 50%;
+    }
+    
+    .cancel-btn {
+    background-color: red;
+    margin-right: 10px;
+    }
+    
+    .pswd-reset {
+    margin-top: 20px;
     }
     }
     
