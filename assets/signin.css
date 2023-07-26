@@ -1,113 +1,219 @@
-/*#login-container{
-    background-image:url('/assets/images/tea.webp');
-    background-repeat: no-repeat;
- 
-     height: 100vh;
-     position: absolute;
-     top:0;
-     display:block;
-   }
- 
- .login-details{
-     height:100vh;
-     display:flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- .login-details .form-box{
-     position:relative;
-     margin: 5px;
-     padding:30px 40px;
-     height: 70%;
-     width:40%;
-     background-color: rgba(4, 9, 10, 0.5);
-     backdrop-filter: blur(10px) saturation(90%);
-     inset: 10px 20px 30px 30px;
- }
- .form-container{
-     text-align: center;
-     vertical-align: middle;
-  }
-  label{
-     font-weight:bold;
-     color:#c1f880;
- 
-  }
- input[type="password"], input[type="email"]{
-     width: 100%;
-     margin: 10px 0;
-     border-radius: 5px;
-     padding: 15px 20px;
-     box-sizing: border-box;
- 
-    
-   }
-   
-   .login-button{
-     background-color:#159957;
-     color: white;
-     padding: 15px 20px;
-     border-radius:5px;
-     margin: 10px 20px;
-     width: 50%;
-     font-size: 20px;
-     
-   }
-   .register-button{
-     background-color:#159957;
-     color: white;
-     padding: 15px 20px;
-     border-radius:5px;
-     margin: 10px 20px;
-     width: 50%;
-     font-size: 20px;  
-     
- }
- .sign-in-icons>a{
-   color: green;
-   filter: brightness(2);
-   font-size: 30px;;
- text-decoration: none;
- 
- }
- 
-   .login-label{
-     text-align:center;
-     color:#c1f880;
-    font-size: 40px;
-    margin-bottom: 30px;
-    
-   }
-  
-   .home-button > a{
-     color:green;
-     font-size:30px;
-     margin-left:5px;
-  }
- .btn-container{
-     color:rgb(19, 245, 19);
- }
-  .cancel-btn{
- width: auto;
-   padding: 5px 20px;
-   margin: 10px;
-   color:black;
-   font-weight: bold;
-   border-radius: 5px;
-   background-color: red
- 
-  } */
 
-body{
-  padding: 0;
-  margin:0;
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&family=Lumanosimo&family=Oswald&family=Varela+Round&display=swap');
+@media (min-width: 400px) {
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgreen;
+  margin: 0;
+  color:green
+  }
   
+  .login-background {
+  padding: 20px;
+  }
   
+  .home-button {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .sign-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .login-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  }
+  
+  .form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .login-label {
+  margin-bottom: 10px;
+  }
+  
+  label {
+  font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  }
+  
+  .btn-class {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  }
+  
+  .btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  .login-button {
+  background-color: green;
+  margin-right: 10px;
+  
+  }
+  
+  .register-button {
+  background-color: darkgreen;
+  
+  }
+  
+  .sign-in-icons {
+  display: flex;
+  justify-content: center;
 
-}
-.filter-background{
-  background-color: grey;
-  filter: blur(5px);
-z-index: 1;
-}
+  }
+  
+  .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  .cancel-btn {
+  background-color: red;
+  margin-right: 10px;
+  }
+  
+  .pswd-reset {
+  margin-top: 10px;
+  }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 601px) {
+  body {
+  font-family: Arial, sans-serif;
+  background-color: lightgreen;
+  margin: 0;
+  }
+  
+  .filter-background {
+  padding: 40px;
+  }  
+  .home-button {
+  text-align: right;
+  }
+  
+  .sign-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  }
+  
+  .login-details {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  }
+  
+  .form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .login-label {
+  margin-bottom: 20px;
+  }
+  
+  label {  font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  }
+  
+  .btn-class {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  }
+  
+  .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  .login-button {
+  background-color: green;
+  margin-right: 10px;
+   width:300px;
+  }
+  
+  .register-button {
+  background-color: darkgreen;
+  width:300px;
+  }
+  
+  .sign-in-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  
+  .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 50%;
+  }
+  
+  .cancel-btn {
+  background-color: red;
+  margin-right: 10px;
+  }
+  
+  .pswd-reset {
+  margin-top: 20px;
+  }
+  }
+  
