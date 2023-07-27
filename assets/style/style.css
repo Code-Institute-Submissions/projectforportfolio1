@@ -81,7 +81,7 @@ header{
     position:relative; 
 }
 .image-article{
-background:url('../assets/images/oolong-tea-1024x683.jpeg') no-repeat center center fixed;
+background:url('/assets/images/oolong-tea-1024x683.jpeg') no-repeat center center fixed;
 background-size: cover;
 height:700px;
 width:100%;
