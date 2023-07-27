@@ -91,7 +91,7 @@ header {
 }
 
 .image-article {
-    background: url("./images/oolong-tea-1024x683.jpeg") no-repeat center center fixed;
+    background: url("../images/oolong-tea-1024x683.jpeg") no-repeat center center fixed;
     background-size: cover;
     height: 700px;
     width: 100%;
@@ -712,7 +712,8 @@ input[type=reset] {
 }
 
 .click-here {
-    color: darkgreen;
+    color: purple;
+    text-decoration: underline;
 }
 
 /*Styling sign in page*/
@@ -814,7 +815,8 @@ input[type=reset] {
     .cancel-btn {
         background-color: red;
         margin-right: 10px;
-        padding: 10px;
+        padding: 5px;
+        border-radius: 5px;
     }
 
     .pswd-reset {
