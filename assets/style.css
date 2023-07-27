@@ -521,30 +521,35 @@ table {
     text-transform:capitalize;
 }
 /*styling order page */
-.label-group {
-    display: block;
-    margin-top: 10px;
-    float:left;
-    color:green;
-    }
-    .order  {
-    width: 50%;
-    padding: 6px 10px;
-    margin: 4px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    }
-    #place-order {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    }
-    
+.odp-title{
+text-align: center;
+margin:5px;
 
+}
+#odp-form{
+margin:10px;
+padding:20px;
+background-color:#f2f2f2;
+width:60%
+
+}
+#odp-form input[type=text], 
+#odp-form select, #odp-form textarea
+#odp-form [type=number]{
+    padding: 13px 18px;
+    margin:8px;
+    display:inline-block;
+    width:80%;
+   
+
+    border:1px solid black;
+    border-radius:5px;
+    box-sizing:border-box;
+
+}
+#odp-form label{
+    display: block;
+}
     /*styling order confirmation*/
     .odp-container {
         text-align: center;
