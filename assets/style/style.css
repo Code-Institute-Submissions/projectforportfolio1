@@ -81,7 +81,7 @@ header{
     position:relative; 
 }
 .image-article{
-background:url('/assets/images/oolong-tea-1024x683.jpeg') no-repeat center center fixed;
+background:url("./images/oolong-tea-1024x683.jpeg") no-repeat center center fixed;
 background-size: cover;
 height:700px;
 width:100%;
@@ -137,6 +137,7 @@ picture > img{
 #about-us > p a{
     color:aqua;
 }
+<<<<<<< HEAD
 /* styling footer
  */
 
@@ -257,6 +258,125 @@ picture > img{
             color: white;
             }
             
+=======
+/* styling footer*/
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .footer-container {
+    margin: 0 auto;
+    max-width: 600px;
+    }
+    
+   footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:whitesmoke
+    }
+    
+    address {
+    margin-bottom: 10px;
+    font-style: italic;
+    color:whitesmoke
+    }
+    
+   footer  p {
+    margin-bottom: 10px;
+    color:white;
+    }
+    
+    table {
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    th,
+    td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    
+    }
+    td{
+        color:white;
+    }
+    th {
+    background-color: #f2f2f2;
+    }
+    
+   footer ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+  footer  li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    a {
+    text-decoration: none;
+    color: white;
+    }
+    
+      
+    .footer-container button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        }
+        
+    
+    .sm-wrapper {
+    margin-bottom: 10px;
+    }
+    
+    h4 {
+    font-size: 18px;
+    color:white
+    }
+    
+    .fa {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    }
+    
+    .fa-instagram:hover{
+        background: -webkit-linear-gradient(#405de6, #ff8a00, #DD4C4F, #e1306c );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        }
+        
+        .fa-facebook:hover{
+        color:blue;
+       
+        }
+        
+        .fa-twitter:hover{
+        color:rgb(16, 123, 231);
+        background-color: #333;
+        }
+        
+        .fa-pinterest:hover{
+        color: red;
+        }
+    
+    .copyrigth-text {
+    font-size: 12px;
+    color: white;
+    }
+>>>>>>> 2ecc58910970f041aa2dcfd208fc4249ef982456
             /* Media queries */
             @media (max-width: 768px) {
             .footer-container {
@@ -650,10 +770,13 @@ width:60%
     .cancel-btn {
     background-color: red;
     margin-right: 10px;
+    padding:10px;
     }
     
     .pswd-reset {
     margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
     }
     }
     
