@@ -138,139 +138,7 @@ picture > img{
     color:aqua;
 }
 /* styling footer
-        footer{
-            background-color: #333;
-            color:white;
-            padding: 10px;
-        }
-        .footer-container {
-            display: flex;
-            justify-content: space-between;
-            
-            }
-            
-            .footer-container h2 {
-            font-size: 24px;
-            margin:0px;
-            }
-            
-            .footer-container p {
-            margin-bottom: 20px;
-            }
-            
-            .footer-container ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            }
-            
-            .footer-container li {
-            display: inline;
-            margin-right: 10px;
-            }
-            
-            .footer-container a {
-            text-decoration: none;
-            }
-            
-            .footer-container button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 5px 10px;
-            cursor: pointer;
-            }
-            
-            .footer-container ul li:last-child button {
-            background-color: #333;
-            color: black;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            }
-            
-            .footer-container ul li:last-child button:hover {
-            background-color: #222;
-            }
-            
-            .footer-container {
-            display: flex;
-            justify-content: space-between;
-            }
-            
-            .footer-container h2 {
-            font-size: 24px;
-            margin:0px;
-            }
-            
-            address {
-            font-style: italic;
-            }
-            /* Styling for opening hours table 
-table {
-    width: 100%;
-    margin-bottom: 10px;
-    border-collapse: collapse;
-    }
-    
-    th, td {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    }
-    
-    tr:last-child td {
-    border-bottom: none;
-    }
-    
-            .footer-container ul li:last-child button {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            }
-            
-            .footer-container ul li:last-child button:hover {
-            background-color: grey;
-            
-            }
-            
-            .sm-wrapper {
-            display: flex;
-            align-items: center;
-            }
-            
-            .fa {
-            color: #fff;
-            font-size: 24px;
-            margin: 10px;
-            }
-            
-            .fa-instagram:hover{
-            background: -webkit-linear-gradient(#405de6, #ff8a00, #DD4C4F, #e1306c );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color:transparent;
-            }
-            
-            .fa-facebook:hover{
-            color:blue;
-            }
-            
-            .fa-twitter:hover{
-            color:rgb(16, 123, 231);
-            }
-            
-            .fa-pinterest:hover{
-            color: red;
-            }
-           .copyright-text{
-        text-align: center;
-        font-size: 12px;
-           } */
+ */
 
            footer {
             background-color: #333;
@@ -685,7 +553,6 @@ width:60%
 }
     /*Styling sign in page*/
 
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&family=Lumanosimo&family=Oswald&family=Varela+Round&display=swap');
   @media (min-width: 400px) {
 
     .login-background {
