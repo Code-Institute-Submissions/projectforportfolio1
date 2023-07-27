@@ -137,7 +137,7 @@ picture > img{
 #about-us > p a{
     color:aqua;
 }
-<<<<<<< HEAD
+
 /* styling footer
  */
 
@@ -258,7 +258,7 @@ picture > img{
             color: white;
             }
             
-=======
+
 /* styling footer*/
 footer {
     background-color: #333;
@@ -376,7 +376,7 @@ footer {
     font-size: 12px;
     color: white;
     }
->>>>>>> 2ecc58910970f041aa2dcfd208fc4249ef982456
+
             /* Media queries */
             @media (max-width: 768px) {
             .footer-container {
