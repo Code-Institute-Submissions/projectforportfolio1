@@ -475,7 +475,7 @@ color: red;
 margin:0 auto;
 padding: 40px;
 background-color:lightgreen;
-max-width:60%;
+max-width:40%;
 height: 600px;
 text-align: center;
 border-radius: 5px;
@@ -502,6 +502,7 @@ font-family: 'Varela Round', sans-serif;
 width: 600px;
 }
 }
+
 @media (max-width: 414px){
 }
 .important {
