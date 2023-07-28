@@ -10,21 +10,28 @@
 
 </head>
 <body>
+    <div class="home-button">  
+        <a href="index.html" aria-label="sends to home page"> <i class="fa fa-home" aria-hidden="true"></i></a>
+       </div>
     <div class="align-center">
-        <h2>Contact Us</h2>
-        <p>We would like to hear about your queries and feedback, so don't hesitate to get in touch:</p>
-    </div>
-    <div id="contact-form">
+        <h1>We'd Love To Hear From You</h1>
+            <p>We  are interested in your queries and feedback, so don't hesitate to get in touch:</p>
+        </div>
+        <div id="contact-form">
     <form action="#" method="get">
+        <div class="first-name">
 <label for="fname"> <span class="important">&ast;</span> First Name</label>
 <input type="text" placeholder="Your first name">
-
+</div>
+<div class="last-name">
 <label for="lname" Your Last name"><span class="important">&ast;</span>Last Name</label>
 <input type="text" placeholder="Your last name">
-
+</div>
+<div class="email-address">
 <label for="your-email"> <span class="important">&ast;</span> Email:</label>
-    <input type="email" name="email" id="your-email" value="Your Email " class="input-group"required>
-
+    <input type="email" name="email" id="your-email" placeholder="Your Email " class="input-group"required>
+</div>
+<div class="country-selector">
     <label for="country">Country:</label>
     <select id="country" name="country">
         <option value="default">Choose a Country</option>
@@ -34,11 +41,17 @@
         <option value="ghana">Ghana</option>
         <option value="nigeria">Nigeria</option>
       </select>
-
+    </div>
+    <div class="query">
       <label for="query">What is your query?</label> <br>
-      <textarea name="query" id="query" cols="30" rows="10" placeholder="Add text here ..."></textarea>
+      <textarea name="query" id="query" cols="50" rows="10" placeholder="Add text here ..."></textarea>
+    </div>
+    <div class="submit-btn">
+        <input type="submit" value="Send">
+            </div>
      </div>
+    
     </form>
-   </div>
+   
 </body>
 </html>
