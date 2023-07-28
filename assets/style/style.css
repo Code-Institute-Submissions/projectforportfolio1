@@ -453,7 +453,7 @@ h4 {
     }
 }
 
-/* Styling contact page */
+/* Styling contact page 
 
 .align-center {
     text-align: center;
@@ -503,7 +503,7 @@ input[type=reset] {
     top: -40px;
     right: 60px;
 }
-
+*/
 /*Styling product-details */
 #pd-container {
     margin: 7px;
@@ -611,6 +611,24 @@ input[type=month]{
     margin: 20px;
     border-radius: 5px;
 }
+@media (max-width: 500px) {
+    #order_method{
+        background-color:whitesmoke;
+       
+     }
+     #payment-method{
+      
+         padding: 20px;
+         background-color:lightgreen;
+         width: 40%;
+         text-align: center;
+       
+         border-radius: 5px;
+     }
+     
+    
+}
+
 /*styling order confirmation*/
 .odp-container {
     text-align: center;
@@ -756,7 +774,7 @@ input[type=month]{
 
 /*Styling sign in page*/
 
-@media (min-width: 400px) {
+@media (min-width: 414px) {
 
     .login-background {
         padding: 20px;
@@ -820,16 +838,17 @@ input[type=month]{
         font-size: 16px;
         text-align: center;
         text-decoration: none;
+        background-color: green;
     }
 
     .login-button {
-        background-color: green;
-        margin-right: 10px;
-
+      position: relative;
+      
     }
 
     .register-button {
         background-color: darkgreen;
+       pos
 
     }
 
