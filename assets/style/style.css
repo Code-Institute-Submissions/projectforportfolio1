@@ -843,13 +843,14 @@ input[type=month]{
 
     .login-button {
       position: relative;
+      padding:0 30px;
+      height:38.5px;
       
     }
 
     .register-button {
         background-color: darkgreen;
-       pos
-
+  
     }
 
     .sign-in-icons {
