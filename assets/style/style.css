@@ -541,19 +541,38 @@ input[type=reset] {
 }
 
 /*styling order page */
-.odp-title {
+#order_method{
+   background-color:whitesmoke;
+   position:relative;
+}
+#payment-method{
+    position:absolute;
+    right:30px;
+    top:100px;
+
+
+    padding: 20px;
+    background-color:lightgreen;
+    width: 40%;
     text-align: center;
-    margin: 5px;
-z-index: 1;
+  
+    border-radius: 5px;
+}
+
+.odp-title {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+ 
 }
 
 #odp-form {
-    margin: 0 auto;
+    margin:30px;
     padding: 20px;
-    background-color: #e7dada;
-    width: 60%;
+    background-color:lightgreen;
+    width: 40%;
     text-align: center;
-    z-index:1;
+    border-radius: 5px;
 }
 
 #odp-form input[type=text],
