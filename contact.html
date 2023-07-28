@@ -21,18 +21,18 @@
     <form action="#" method="get">
         <div class="first-name">
 <label for="fname"> <span class="important">&ast;</span> First Name</label>
-<input type="text" placeholder="Your first name">
+<input type="text" placeholder="Your first name" required>
 </div>
 <div class="last-name">
 <label for="lname" Your Last name"><span class="important">&ast;</span>Last Name</label>
-<input type="text" placeholder="Your last name">
+<input type="text" placeholder="Your last name" required>
 </div>
 <div class="email-address">
 <label for="your-email"> <span class="important">&ast;</span> Email:</label>
     <input type="email" name="email" id="your-email" placeholder="Your Email " class="input-group"required>
 </div>
 <div class="country-selector">
-    <label for="country">Country:</label>
+    <label for="country"><span class="important">&ast;</span>Country:</label>
     <select id="country" name="country">
         <option value="default">Choose a Country</option>
         <option value="uk">United Kingdom</option>
@@ -43,8 +43,8 @@
       </select>
     </div>
     <div class="query">
-      <label for="query">What is your query?</label> <br>
-      <textarea name="query" id="query" cols="50" rows="10" placeholder="Add text here ..."></textarea>
+      <label for="query"><span class="important">&ast;</span>What is your query?</label> <br>
+      <textarea name="query" id="query" cols="50" rows="10" placeholder="Add text here ..." required></textarea>
     </div>
     <div class="submit-btn">
         <input type="submit" value="Send">
