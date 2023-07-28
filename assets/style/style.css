@@ -455,55 +455,93 @@ h4 {
 
 /* Styling contact page 
 
-.align-center {
+*/
+@media(min-width:610px){ .align-center h1 { 
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+}
+.align-center p{
+    margin:5px;
+    font: bolder;
+    font-size: larger;
     text-align: center;
 }
-
-.align-center>h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.align-center>p {
-    margin-bottom: 20px;
-}
-
-#contact-form>input[type="text"],
-input[type="email"],
-select,
-textarea {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 .important {
-    color: red;
+color: red;
 }
 
-input[type=submit],
-input[type=reset] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#contact-form{
+margin:0 auto;
+padding: 40px;
+background-color:lightgreen;
+max-width:60%;
+height: 600px;
+text-align: center;
+border-radius: 5px;
+border: 1px solid
 }
 
-input[type=submit] {
-    position: relative;
-    right: -50px;
+#contact-form input, #contact-form select{
+padding: 12px 10px;
+margin: 10px 20px 5px 5px;
+border: 1px solid black;
+border-radius: 5px;
+box-sizing: border-box;
+width:700px;
+
+}
+#contact-form label {
+display: block;
+margin:5px;
+}
+#contact-form textarea{
+border: 1px solid black;
+border-radius: 5px;
+font-family: 'Varela Round', sans-serif;
+width: 600px;
+}
+}
+@media (max-width: 414px){
+}
+.important {
+color: red;
+}
+#contact-form input, #contact-form select{
+padding: 13px 18px;
+margin: 10px 20px 5px 5px;
+border: 1px solid black;
+border-radius: 5px;
+box-sizing: border-box;
+width:400px;
+
+}
+#contact-form label {
+display: block;
+margin:5px;
+
+}
+#contact-form textarea{
+border: 1px solid black;
+border-radius: 5px;
+font-family: 'Varela Round', sans-serif;
+width: 400px;
+margin:5px;
+
+}
+.submit-btn input[type=submit]{
+
+color:white;
+background-color: darkgreen;
 }
 
-input[type=reset] {
-    position: relative;
-    top: -40px;
-    right: 60px;
-}
-*/
+
+
+
+
+
+
+
 /*Styling product-details */
 #pd-container {
     margin: 7px;
