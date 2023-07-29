@@ -912,6 +912,7 @@ input[type=month]{
         margin-right: 10px;
         padding: 5px;
         border-radius: 5px;
+        color:white;
     }
 
     .pswd-reset {
@@ -919,6 +920,17 @@ input[type=month]{
         color: blue;
         text-decoration: underline;
     }
+}
+.resetters{
+    margin: 10px;
+    padding: 4px;
+    width:100;
+    align-items: center;
+    position:relative
+}
+.resetters div{
+    position:absolute;
+    left:95px
 }
 
 /* Desktop */
