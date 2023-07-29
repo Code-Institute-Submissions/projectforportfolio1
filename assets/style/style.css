@@ -251,7 +251,6 @@ h4 {
 
 .fa-instagram:hover {
     background: -webkit-linear-gradient(#405de6, #ff8a00, #DD4C4F, #e1306c);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -372,7 +371,6 @@ h4 {
 
 .fa-instagram:hover {
     background: -webkit-linear-gradient(#405de6, #ff8a00, #DD4C4F, #e1306c);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
