@@ -6,7 +6,7 @@ Users of this website will experience a smooth interaction in fidning whatever i
 
 
 The website is a responsive one that is suitable for different devices. This responsivenes was implemented with consideration to the average screen sizes of a phone which is 414px.
-![image froma miresponsive](../amiresponsive.png)
+![image froma miresponsive](amiresponsive.png)
 
 
 ## Features
