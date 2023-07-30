@@ -120,4 +120,3 @@ Some of my websites performance were ranging from 77 to 82. For these analysis, 
  ![lighthouse validation](https://github.com/JonFD4/projectforportfolio1/blob/383589f6a03ccf1bbf7ffbcd1653e0dc5664659c/assets/readme%20images/problem%20images/order%20page%20lighthouse%20val.png)
 Accessibility had hire scores through out the web pages as it was a main focus.
 I can confirm  usability for screen readers,readability, colour contrast, user control and freedom were call onsidered in the development of the website. The website was analysed using lighthouse.
-git 
