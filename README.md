@@ -95,7 +95,21 @@ for example:
 A few errors were found. Mostly pertaining to bad coding practices such as closing tags. 
  These were fixed. Adding html end tag label extension made it easier for identification of closing tags by labelling them with selector attributes.
 
- * Index>html validation:
+ * Index html validation:
  ![w3c html validation- about us section](readme images/problem images/about section error in html validation.png)
  the image shows an error for image path in about us section. 
  However, this error has not been fixed bceause it seems that this is the only way github is able to render the image
+ * Product details validation
+ ![w3c html validation-  product details](readme images/problem images/product w3c validator.png)
+ the image above shows an error with  relative path for image, however, this path seems effective in image being rendered on website.
+ * No other errors were found using  html validator
+
+ * CSS jigsaw validation: No errors were found
+
+##### Lighthouse Analysis
+![lighthouse validation]()
+Some of my websites performance were ranging from 77 to 82. For these analysis, showed the problem was a cumulative layout shift whereby as page loads some of the elements shifts.
+    * No bugs were fixed on this.
+
+Accessibility had hire scores through out the web pages as it was a main focus.
+I can confirm  usability for screen readers,readability, colour contrast, user control and freedom were call onsidered in the development of the website. The website was analysed using lighthouse.
