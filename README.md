@@ -123,6 +123,8 @@ I can confirm  usability for screen readers,readability, colour contrast, user c
 
 ## Credits
 Image for index.html source: https://www.medicalnewstoday.com/articles/319276#what-is-oolong-tea
+
 Image for product detail (different oolong tea) source: https://guilteapleasures.wordpress.com/2015/03/07/what-is-oolong-tea/
 video on how to brew oolong tea: https://youtu.be/_TNgqtyqPM8
-icons from font awesome 4 and w3school.
+
+Icons from font awesome 4 and w3school.
