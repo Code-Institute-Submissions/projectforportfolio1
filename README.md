@@ -4,21 +4,22 @@ Dream teahouse is a website for the sales of oolong tea. It targets individuals 
 
 Users of this website will experience a smooth interaction in fidning whatever information they want such as the product details, information abdout the establishment, contact information
 
-![alt: desktop screen of website](https://github.com/JonFD4/projectforportfolio1/edit/main/README.md#:~:text=us%20image.png-,amiresponsive,-.png)
-
 
 The website is a responsive one that is suitable for different devices. This responsivenes was implemented with consideration to the average screen sizes of a phone which is 414px.
-![Image from amiresponsive](https://github.com/JonFD4/projectforportfolio1/edit/main/README.md#:~:text=page%20image.png-,desktopimage,-%2Dwebsite.png))
+![image fromamiresponsive](https://github.com/JonFD4/projectforportfolio1/edit/main/README.md#:~:text=amiresponsive.-,png,-contact%2Dpage%20image)
+
+
 ## Features
+
 The first page of the website (index.html) contains three sections. The homepage, the about-us section, and the footer.
   #### the home page- features
-  ![alt: desktop screen of website ]()
+![Image of home page](https://github.com/JonFD4/projectforportfolio1/edit/main/README.md#:~:text=desktopimage%2D-,website,-.png)
    * The  header includes the  company logo which when clicked directs user to the homepage and slogan
     - There is also the navigation bar which includes the home button, about us (internal link), product detail, and sign-in button.
     - It is also has a text "Welcome to dream tea house" and a button that directs user to product details
    
 #### the about us which gives a description and aim of the
-![alt: desktop screen of website ](readme images/website images/about us image.png)
+![ desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/edit/main/README.md#:~:text=about%20us%20image-,.,-png)
 *  The about us has a heading clarifying its role in the website.
     - The image of behance Yuyan river is an illustration from https://mir-s3-cdn-cf.behance.net/project_modules/1400/692f4385070277.5d709e57b7d93.jpg It serves to add aesthetic to the website.
     - It has descriptive text detailing the purpose and aim of the commpany.
