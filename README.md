@@ -1,8 +1,12 @@
 # Dream Teahouse
-================================================
+
 Dream teahouse is a website for the sales of oolong tea. It targets individuals interested in tea, specifically, those who needs relaxation and assistance with sleep.
 
 Users of this website will experience a smooth interaction in fidning whatever information they want such as the product details, information abdout the establishment, contact information
+<<<<<<< HEAD
+=======
+![alt: desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/blob/main/readme%20images/desktopimage-website.png)
+>>>>>>> cc199bb8b46dcb9ac7900eb7ad2f48d9db6ec30c
 
 The website is a responsive one that is suitable for different devices. This responsivenes was implemented with consideration to the average screen sizes of a phone which is 414px.
 ![Image from amiresponsive](readme images/website images/amiresponsive.png)
