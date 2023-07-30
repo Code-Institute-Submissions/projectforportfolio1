@@ -35,8 +35,8 @@ The first page of the website (index.html) contains three sections. The homepage
   This page maintains a contract between foreground and background allowing for user to be able to easily read whilst maintaing aesthetics.
 
 #### The Product detail page
-![alt: desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/blob/383589f6a03ccf1bbf7ffbcd1653e0dc5664659c/assets/readme%20images/website%20images/product%20detail%20image1.png)
-![alt: desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/blob/383589f6a03ccf1bbf7ffbcd1653e0dc5664659c/assets/readme%20images/website%20images/product%20detail%20image2.png)
+![alt: desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/blob/df68ea40f988de0c1d9b35775b24a96317614d4c/assets/readme%20images/website%20images/product%20detail%20image1.png)
+![alt: desktop screen of website ](https://github.com/JonFD4/projectforportfolio1/blob/df68ea40f988de0c1d9b35775b24a96317614d4c/assets/readme%20images/website%20images/product%20detail%20image2.png)
 
   - The page has the header which consists of the logo, slogan and navigation menu
   - This page is details researched information about oolong tea.
